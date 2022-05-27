@@ -8,7 +8,7 @@
           <v-stepper-items>
             <v-stepper-content class="mx-n2 mt-n6" step="1">
               <v-card-text class="mt-n5 ml-n4 mt-n2 mt-n2 grey--text">
-                Login to tovy with your tovy credentials
+                Login to AutoMod with your AutoMod credentials
               </v-card-text>
               <v-alert type="error" v-if="error" class="mt-n2" color="red">
                 We could not find an account with that username and password</v-alert
@@ -42,7 +42,7 @@
             </v-stepper-content>
             <v-stepper-content class="mx-n2 mt-n6" step="2">
               <v-card-text class="mt-n5 ml-n4 mt-n2 mt-n2 grey--text">
-                Boom!
+                One moment!
               </v-card-text>
               <v-row class="mx-auto mb-5 mt-5">
                 <v-progress-circular
