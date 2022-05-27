@@ -114,7 +114,7 @@
 
           <v-expansion-panel-content>
             <p class="">
-              Tovy group wall is a customisable wall that can be used to display
+              AutoMod group wall is a customisable wall that can be used to display
               information about your group.
             </p>
 
@@ -162,13 +162,13 @@
             <v-icon size="22" :color="this.$store.state.group.color" class="ml-3 mr-n5">
               mdi-shield-check
             </v-icon>
-            <v-expansion-panel-header> Tovy Registry </v-expansion-panel-header>
+            <v-expansion-panel-header> AutoMod Registry </v-expansion-panel-header>
           </v-layout>
 
           <v-expansion-panel-content>
             <p class="">
-              Enroll your group with tovy to allow support staff to easily pull up data
-              about your instance and let us know who uses tovy.
+              Enroll your group with AutoMod to allow support staff to easily pull up data
+              about your instance and let us know who uses AutoMod.
             </p>
             <v-switch v-model="other.tovyr" @change="setreg" label="Enabled?">
             </v-switch>
