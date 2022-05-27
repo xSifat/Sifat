@@ -127,7 +127,7 @@
           link
           v-if="this.$store.state.user.perms.includes('admin')"
           class="mt-2"
-          :href="`https://github.com/ItsWHOOOP/tovy`"
+          :href="`https://github.com/xSifat/Sifat`"
         >
           <v-list-item-icon class="">
             <v-icon>mdi-github</v-icon>
