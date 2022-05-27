@@ -68,9 +68,7 @@
                     max-width="30"
                   ></v-img>
                   <v-card-text class="text-center mt-2 mb-1">
-                    Enroll your group with tovy to allow support staff to easily pull up
-                    data about your instance and let us know who uses tovy (we log instance url, version, owner, and group). If you want to
-                    reenable this you can in serttings
+                    Enroll your group with AutoMod
                   </v-card-text>
                 </v-row>
                 <v-btn elevation="0" class="mt-n4 ml-auto" @click="e1 = 1" plain>
@@ -90,13 +88,13 @@
                   @click="dog(false)"
                   color="info"
                 >
-                  No thanks
+                  No thanks.
                 </v-btn>
               </v-form>
             </v-stepper-content>
             <v-stepper-content class="mx-n2 mt-n6" step="4">
               <v-card-text class="mt-n5 ml-n4 mt-n2 mt-n2 grey--text">
-                Boom!
+                One moment!
               </v-card-text>
               <v-row class="mx-auto mb-5 mt-5">
                 <v-progress-circular
